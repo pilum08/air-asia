@@ -1,0 +1,203 @@
+﻿.social-network {
+    min-width: 249px;
+    position: relative;
+    padding-right: 73px;
+    padding-bottom: 10px;
+}
+
+.social-network__item {
+    align-items: center;
+}
+
+.social-network__item:last-child {
+    margin-right: 0;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-network__item {
+    vertical-align: middle;
+}
+
+.social-network__link {
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+
+.social-network__item--icon-telegram::after {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 213px;
+    height: 36px;
+    background: url(../../images/css_sprites.png)-122px -10px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-telegram::before {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 213px;
+    height: 36px;
+    background: url(../../images/css_sprites.png) -178px -10px;
+    opacity: 0;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-telegram:hover::after {
+    opacity: 0;
+}
+
+.social-network__item--icon-telegram:hover::before {
+    opacity: 1;
+}
+
+.social-network__item--icon-vk::after {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 167px;
+    height: 36px;
+    background: url(../../images/css_sprites.png)-234px -10px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-vk::before {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 167px;
+    height: 36px;
+    background: url(../../images/css_sprites.png) -290px -10px;
+    opacity: 0;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-vk:hover::after {
+    opacity: 0;
+}
+
+.social-network__item--icon-vk:hover::before {
+    opacity: 1;
+}
+
+.social-network__item--icon-fb::after {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 121px;
+    height: 36px;
+    background: url(../../images/css_sprites.png)-346px -10px;
+    transition: 400ms;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.social-network__item--icon-fb::before {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 121px;
+    height: 36px;
+    background: url(../../images/css_sprites.png) -402px -10px;
+    opacity: 0;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-fb:hover::after {
+    opacity: 0;
+}
+
+.social-network__item--icon-fb:hover::before {
+    opacity: 1;
+}
+
+.social-network__item--icon-inst::after {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    height: 36px;
+    background: url(../../images/css_sprites.png)-10px -10px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-inst::before {
+    content: "";
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    height: 36px;
+    background: url(../../images/css_sprites.png) -66px -10px;
+    opacity: 0;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-network__item--icon-inst:hover::after {
+    opacity: 0;
+}
+
+.social-network__item--icon-inst:hover::before {
+    opacity: 1;
+}
+
+/*.social-network__item--icon-telegram {
+    background: url(../../images/css_sprites.png)-122px -10px;
+}
+
+.social-network__item--icon-telegram:hover {
+    background: url(../../images/css_sprites.png) -178px -10px;
+}
+
+.social-network__item--icon-vk {
+    background: url(../../images/css_sprites.png)-234px -10px;
+}
+
+.social-network__item--icon-vk:hover {
+    background: url(../../images/css_sprites.png) -290px -10px;
+}
+
+.social-network__item--icon-fb {
+    background: url(../../images/css_sprites.png) -346px -10px;
+}
+
+.social-network__item--icon-fb:hover {
+    background: url(../../images/css_sprites.png) -402px -10px;
+}
+
+.social-network__item--icon-inst {
+    background: url(../../images/css_sprites.png) -10px -10px;
+}
+
+.social-network__item--icon-inst:hover {
+    background: url(../../images/css_sprites.png) -66px -10px;
+}

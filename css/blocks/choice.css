@@ -1,0 +1,28 @@
+.choice__element {
+    cursor: pointer;
+}
+
+.choice__checkbox:checked~.choice__tag {
+    background: #B9EAE4;
+}
+
+.choice__checkbox {
+    display: none;
+}
+
+.fedback__choice {
+    display: flex;
+}
+
+
+.choice {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-bottom: 19px;
+}
+
+.choice__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

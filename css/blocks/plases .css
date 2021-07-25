@@ -1,0 +1,52 @@
+.plases {
+    padding-bottom: 172px;
+    padding-top: 108px;
+}
+
+.servises-container {
+    min-width: 1168px
+}
+
+.plases__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plases__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.plases__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #303030;
+    padding: 10px 0px 0px 55px;
+}
+
+.plases__text {
+    line-height: 1.7;
+    padding-right: 27px;
+}
+
+.plases__title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.button__plases {
+    padding: 18px 39px;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    background: #fff;
+    margin-bottom: 17px
+}
+
+.plases__item:hover .button__plases {
+    color: #fff;
+    background: #F5170E;
+    transition: 400ms;
+}

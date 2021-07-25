@@ -1,0 +1,31 @@
+﻿.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    
+    align-items: center;
+    margin-right: 50.5px;
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+    transition: 400ms;
+}
+.menu--footer {
+    padding-bottom: 6px;
+}
+.menu__link--active {
+    color: #DA0100;
+    transition: 400ms;
+}

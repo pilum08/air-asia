@@ -1,0 +1,22 @@
+﻿.top-band {
+    min-height: 412px;
+    background: url(../../images/headline\ 1.jpg) right 50% top no-repeat;
+}
+
+.top-band__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    min-height: inherit;
+    padding-bottom: 25px;
+}
+
+.page-title--servises {
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.main-content-inner {
+    background: #fff;
+}

@@ -1,0 +1,53 @@
+.feedback {
+    background: #F4F5F5;
+    padding-bottom: 96px;
+}
+
+.title--feedback {
+    font-size: 48px;
+    color: #1A1B1E;
+    margin-bottom: 71px;
+}
+
+.feedback__lines {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.feedback__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;;
+    background: #fff;
+    padding:20px 30px;
+    color: #1A1B1E;
+}
+
+.feedback__input:focus {
+    outline: none;
+    border: 1px solid;
+    border-color: #F5170E;
+    ;
+}
+
+.feedback__choice-title {
+    width: 37.1%;
+    color: #1A1B1E;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+.feedback__input::placeholder {
+    color: #666;
+}
+
+.feedback__input:last-child {
+    margin-right: 0;
+}
+
+.feedback__input--textarea {
+    height: 235px;
+    resize: none;
+    padding: 30px;
+}

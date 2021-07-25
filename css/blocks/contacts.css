@@ -1,0 +1,96 @@
+﻿.contacts {
+    font-style: normal;
+    text-align: right;
+    top: 5px;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.shedule-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.schedule {
+    position: relative;
+    width: 97px;
+}
+
+.schedule:hover .schedule__dropdown {
+    right: 0;
+    opacity: 1;
+}
+
+.schedule__dropdown {
+    position: absolute;
+    width: 160px;
+    min-height: 70px;
+    top: 100%;
+    display: block;
+    background: #CDD1D2;
+    color: #1E1F20;
+    right: 9999px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 15px 0px 15px 15px;
+    line-height: 21px;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+.schedule__dropdown p {
+    margin: 0;
+}
+
+.schedule__dropdown:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #CDD1D2;
+    position: absolute;
+    bottom: 100%;
+    right: 26%;
+}
+
+.schedule__dropdown:after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 97px;
+    background: #CDD1D2;
+    opacity: 0;
+    position: absolute;
+    left: 63px;
+    bottom: 63px
+}
+
+.schedule__title {
+    cursor: pointer;
+    font-size: 13px;
+    color: #98A4A8;
+    text-decoration: underline;
+    line-height: 1.2
+}
+
+.schedule__title:hover {
+    color: #fff;
+    transition: 400ms;
+}
+
+.schedule__working-time {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.schedule__lunch-break {
+    font-weight: 500;
+}

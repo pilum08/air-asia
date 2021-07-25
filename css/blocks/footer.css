@@ -1,0 +1,26 @@
+﻿.footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 148.64px;
+    border-top: 1px solid rgb(255, 255, 255, .1);
+    padding-bottom: 15px;
+    margin-top: auto;
+    align-items: center;
+}
+
+.footer__col {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contacts__text {
+    font-size: 11px;
+    line-height: 2.6;
+    color: #9A9A9A;
+}
+
+.footer-inner {
+    min-height: 140px;
+    padding-right: 30px;
+}

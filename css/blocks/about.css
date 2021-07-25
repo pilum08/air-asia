@@ -1,0 +1,52 @@
+﻿.about {
+    display: flex;
+    padding-top: 144px;
+    padding-bottom: 56px;
+}
+
+
+.about__content {
+    display: flex;
+    background: url(../../images/mountains.jpg) center center/cover no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 454px;
+    max-width: 788px;
+    margin-left: 351px;
+    margin-top: 98px;
+    z-index: 1;
+   
+}
+
+.about__article {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0px 203px 66px 84px;
+    min-height: 140px;
+    color: #000;
+    line-height:1.69;
+    margin-top: auto;
+}
+.about:before {
+    content: '';
+    display: block;
+    border-radius: 5px;
+    width: 488px;
+    height: 505px;
+    background: url(../../images/gates.jpg)center center/cover no-repeat;
+    position: absolute;
+    z-index: 0;
+    
+}
+.title--dark {
+    margin-bottom:39px;
+}
+.about__text {
+    margin-bottom: 41px;
+}
+.button__about {
+    display:inline-block;
+}

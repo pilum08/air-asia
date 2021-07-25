@@ -1,0 +1,14 @@
+.servises-pagination {
+    color: #000;
+    padding-top: 13px;
+}
+
+.servises-pagination__link:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.servises-pagination__link--active {
+    background: #F5170E;
+    color: #fff;
+}
